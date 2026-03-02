@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(ldd:*)",
+      "Bash(pacman:*)",
+      "Bash(node:*)",
+      "Bash(command:*)",
+      "Bash(curl:*)",
+      "Bash(ls ~/.nvm/versions/node/v22.22.0/bin/node 2>/dev/null && ~/.nvm/versions/node/v22.22.0/bin/node --version 2>&1)",
+      "Bash(export:*)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/v22.22.0/bin:$PATH\" && npm run build 2>&1)",
+      "WebSearch",
+      "Bash(~/.nvm/versions/node/v22.22.0/bin/node --version 2>&1 && ~/.nvm/versions/node/v22.22.0/bin/npm --version 2>&1)",
+      "Bash(ls:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm install 20 2>&1)",
+      "Bash(source:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && cd /media/manjaro/0x00/web_build/apps/web && npm install 2>&1)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && npx tsc --noEmit 2>&1)",
+      "Bash(head:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && grep \"IntrinsicElements\\\\|declare global\\\\|JSX\" node_modules/@react-three/fiber/dist/declarations/src/three-types.d.ts 2>/dev/null)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && head -20 node_modules/@react-three/fiber/dist/react-three-fiber.cjs.d.ts 2>/dev/null)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && head -30 node_modules/@react-three/fiber/dist/declarations/src/index.d.ts 2>/dev/null)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && cd /media/manjaro/0x00/web_build/apps/web && npx tsc --noEmit 2>&1)",
+      "Bash(grep namespace JSX:*)",
+      "Bash(grep \"version\":*)",
+      "Bash(grep interface:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && grep -c \"IntrinsicElements\" node_modules/@types/react/index.d.ts 2>/dev/null)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && npm install 2>&1)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && npm run build 2>&1)",
+      "Bash(npx tsc:*)",
+      "Bash(mv:*)",
+      "WebFetch(domain:www.pexels.com)",
+      "WebFetch(domain:pixabay.com)",
+      "WebFetch(domain:coverr.co)",
+      "Bash(yes:*)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:web3forms.com)"
+    ]
+  }
+}

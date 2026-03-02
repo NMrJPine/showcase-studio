@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "web-build",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,css,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.7.3"
+  },
+  "packageManager": "npm@11.6.4",
+  "workspaces": ["apps/*"]
+}
