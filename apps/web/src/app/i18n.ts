@@ -242,7 +242,7 @@ export const translations: Record<"en" | "it" | "es", Translations> = {
     contact_subtitle:
       "Ready to give your products the digital showcase they deserve? We'd love to hear about your vision.",
     contact_cta: "Get In Touch",
-    contact_email: "hello@showcasestudio.dev",
+    contact_email: "hello@showcasestudio.org",
     contact_name: "Your Name",
     contact_email_label: "Your Email",
     contact_subject: "Subject",
@@ -389,7 +389,7 @@ export const translations: Record<"en" | "it" | "es", Translations> = {
     contact_subtitle:
       "Pronto a dare ai tuoi prodotti la vetrina digitale che meritano? Ci piacerebbe conoscere la tua visione.",
     contact_cta: "Contattaci",
-    contact_email: "ciao@showcasestudio.dev",
+    contact_email: "ciao@showcasestudio.org",
     contact_name: "Il Tuo Nome",
     contact_email_label: "La Tua Email",
     contact_subject: "Oggetto",
@@ -536,7 +536,7 @@ export const translations: Record<"en" | "it" | "es", Translations> = {
     contact_subtitle:
       "\u00bfListo para dar a tus productos la vitrina digital que merecen? Nos encantar\u00eda conocer tu visi\u00f3n.",
     contact_cta: "Cont\u00e1ctanos",
-    contact_email: "hola@showcasestudio.dev",
+    contact_email: "hola@showcasestudio.org",
     contact_name: "Tu Nombre",
     contact_email_label: "Tu Email",
     contact_subject: "Asunto",
