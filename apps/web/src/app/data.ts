@@ -128,15 +128,17 @@ export const processSteps: ProcessStep[] = [
   { titleKey: "step_deploy_title", descKey: "step_deploy_desc", num: "04", color: "#0d9668" },
 ];
 
+const base = import.meta.env.BASE_URL;
+
 export const templates: Template[] = [
-  { id: "nova", titleKey: "tpl_nova_title", descKey: "tpl_nova_desc", featuresKey: "tpl_nova_features", category: "ecommerce", color: "#d4a017", images: ["/templates/nova-desktop.png", "/templates/nova-mobile.png"] },
-  { id: "ember", titleKey: "tpl_ember_title", descKey: "tpl_ember_desc", featuresKey: "tpl_ember_features", category: "portfolio", color: "#e11d48", images: ["/templates/ember-desktop.png", "/templates/ember-mobile.png"] },
-  { id: "zenith", titleKey: "tpl_zenith_title", descKey: "tpl_zenith_desc", featuresKey: "tpl_zenith_features", category: "landing", color: "#0891b2", images: ["/templates/zenith-desktop.png", "/templates/zenith-mobile.png"] },
-  { id: "pulse", titleKey: "tpl_pulse_title", descKey: "tpl_pulse_desc", featuresKey: "tpl_pulse_features", category: "saas", color: "#7c3aed", images: ["/templates/pulse-desktop.png", "/templates/pulse-mobile.png"] },
-  { id: "saveur", titleKey: "tpl_saveur_title", descKey: "tpl_saveur_desc", featuresKey: "tpl_saveur_features", category: "restaurant", color: "#0d9668", images: ["/templates/saveur-desktop.png", "/templates/saveur-mobile.png"] },
-  { id: "chronicle", titleKey: "tpl_chronicle_title", descKey: "tpl_chronicle_desc", featuresKey: "tpl_chronicle_features", category: "blog", color: "#e11d48", images: ["/templates/chronicle-desktop.png", "/templates/chronicle-mobile.png"] },
-  { id: "vertex", titleKey: "tpl_vertex_title", descKey: "tpl_vertex_desc", featuresKey: "tpl_vertex_features", category: "ecommerce", color: "#4f46e5", images: ["/templates/vertex-desktop.png", "/templates/vertex-mobile.png"] },
-  { id: "artisan", titleKey: "tpl_artisan_title", descKey: "tpl_artisan_desc", featuresKey: "tpl_artisan_features", category: "portfolio", color: "#d4a017", images: ["/templates/artisan-desktop.png", "/templates/artisan-mobile.png"] },
+  { id: "nova", titleKey: "tpl_nova_title", descKey: "tpl_nova_desc", featuresKey: "tpl_nova_features", category: "ecommerce", color: "#d4a017", images: [`${base}templates/nova-desktop.png`, `${base}templates/nova-mobile.png`] },
+  { id: "ember", titleKey: "tpl_ember_title", descKey: "tpl_ember_desc", featuresKey: "tpl_ember_features", category: "portfolio", color: "#e11d48", images: [`${base}templates/ember-desktop.png`, `${base}templates/ember-mobile.png`] },
+  { id: "zenith", titleKey: "tpl_zenith_title", descKey: "tpl_zenith_desc", featuresKey: "tpl_zenith_features", category: "landing", color: "#0891b2", images: [`${base}templates/zenith-desktop.png`, `${base}templates/zenith-mobile.png`] },
+  { id: "pulse", titleKey: "tpl_pulse_title", descKey: "tpl_pulse_desc", featuresKey: "tpl_pulse_features", category: "saas", color: "#7c3aed", images: [`${base}templates/pulse-desktop.png`, `${base}templates/pulse-mobile.png`] },
+  { id: "saveur", titleKey: "tpl_saveur_title", descKey: "tpl_saveur_desc", featuresKey: "tpl_saveur_features", category: "restaurant", color: "#0d9668", images: [`${base}templates/saveur-desktop.png`, `${base}templates/saveur-mobile.png`] },
+  { id: "chronicle", titleKey: "tpl_chronicle_title", descKey: "tpl_chronicle_desc", featuresKey: "tpl_chronicle_features", category: "blog", color: "#e11d48", images: [`${base}templates/chronicle-desktop.png`, `${base}templates/chronicle-mobile.png`] },
+  { id: "vertex", titleKey: "tpl_vertex_title", descKey: "tpl_vertex_desc", featuresKey: "tpl_vertex_features", category: "ecommerce", color: "#4f46e5", images: [`${base}templates/vertex-desktop.png`, `${base}templates/vertex-mobile.png`] },
+  { id: "artisan", titleKey: "tpl_artisan_title", descKey: "tpl_artisan_desc", featuresKey: "tpl_artisan_features", category: "portfolio", color: "#d4a017", images: [`${base}templates/artisan-desktop.png`, `${base}templates/artisan-mobile.png`] },
 ];
 
 export const categoryFilterKeys: Record<"all" | TemplateCategory, keyof Translations> = {
